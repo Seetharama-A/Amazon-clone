@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+#header{
+    height: 100px;
+    width:100%;
+    color: white;
+    
+}
+#menu{
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    display: flex;
+}
+
+#list{
+    height: 40px;
+    width: 100%;
+    background-color: #063640;
+}
+#list>a{
+    color: white;
+}
+.logo{
+    height: 49px;
+    width: 113px;
+    /* background-color: red; */
+
+}
+img{
+    height: 49px;
+    width: 113px;
+    margin: 1px 1px 1px 1px;
+    padding-top: 10px;
+
+}
+   
+  /* logo ends */
+ .location-container{
+    padding-left: 20px;
+    height: 100%;
+    width: 84px;
+ }
+ .location-2{
+    display: flex;
+    align-items: center;
+ }
+ .address1
+ {
+    color:white;
+    font-size: 12px;
+    padding-left: 12px;
+    padding-top: 10px;
+    font-weight:100;
+
+ }
+ .address2{
+    font-weight: bolder;
+   
+    
+ }
+    /* location end */
+
+ .search-bar{
+    height: 100%;
+    width: 640px;
+    display: inline-flex;
+    margin-left: 25px;
+   padding-top: 10px;
+
+ }   
+ #All{
+    height: 40px;
+    width:51.33px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding-left: 8px;
+    background-color:rgb(237, 232, 232);
+
+ }
+#psize{
+    height: 40px; 
+    width: 524px; 
+    margin-left: -8px;
+    padding-left: 15px;
+    margin-right: 5px;
+    font-size: 15px;
+}
+ #placeholder{
+    height: 40px;
+    width:520px;
+    font-size: 15px;
+    padding-left: 7px;
+    
+    /* background-color: yellow; */
+ }
+ 
+
+ #magnify{
+    height:40px ;
+    width:40px ;
+    background-color: orange;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+ }
+ #para{
+    height: 50px;
+    width: 131px;
+    padding-top:0px 9px 10px 9px;
+    margin-left: 10px;
+
+    
+ }
+ h5{
+    font-size: 12px;
+    padding-top: 20px;
+    
+ }
+ h3{
+    font-size: 15px;
+ }
+ #return{
+    height: 50px;
+    width: 76px;
+    /* background-color: red; */
+    margin-left: 20px;
+ }
+ #cart{
+    height: 100;
+    width: 39px;
+    display: flex;
+    padding-top: 22px;
+ }
+ #cart i{
+    font-size: 35px;
+    margin-left: 15px;
+   
+ }
+ #carter{
+    padding-top: 10px;
+    padding-left: 3px;
+    margin-left:3px;
+ }
+/* -------------------------MENU ENDS---------------------------------------- */
+#list{
+    padding-top: 10px;
+}
+#list a{
+    text-decoration: none;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+#shop{
+    display: inline;
+    margin-left: 500px;
+    font-weight:700;
+
+}
+#hero{
+    height: 400px;
+    background-size:1300PX;
+    background-image: url("main_pic.jpg");
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+#para1{
+    height: 40px;
+    width: 1200px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+
+}
+#para1>p{
+    font-size: 14px;
+    color:black;
+}
+#para1>a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+/* --------------------------------main ends----------------------------- */
+.box{
+    
+    height: 385px;
+    width: 23% ;
+    margin-top: 15px;
+    background-color: white;
+    padding: 20px 0px 15px;
+
+}
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(249, 249, 183);
+    
+}
+#image-1{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.mobiles{
+    height: 250px;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(246, 162, 190);
+}
+.mobiles div{
+    height: 200px;
+    width: 160px;
+    background-size: cover;
+    margin-top: 15px;
+}
+.books{
+    height: 250px;
+    width:100%;
+    display: flex;
+    background-color: rgb(233, 233, 151);
+    justify-content: space-evenly;
+    
+}
+.books div{
+    height: 200px;
+    width: 160px;
+    background-size: cover;
+    margin-top: 15px;
+}
+/* ------------foter--------- */
+#bar{
+    height: 50px;
+    width: 100%;
+    background-color:#455b79 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+#bar>a{
+    text-decoration: none;
+}
+.below{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #232f3e;
+}
+ol>li{
+    list-style-type: none;
+    line-height: 25px;
+    
+}
